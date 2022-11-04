@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  size: 100%;
+  font-size: 100%;
+  line-height: -1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul, li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1640px;
+  margin: 0px auto;
+  padding: 0px 40px;
+}
+
+.menu {
+  background-color: #eff0f2;
+}
+.menu__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0px 0px 0px;
+}
+.menu__flex__logo {
+  padding: 80px 0px 0px 0px;
+}
+.menu__flex__logo img {
+  max-width: 100%;
+}
+.menu__flex__burger {
+  padding: 80px 0px 0px 0px;
+}
+.menu__flex__burger img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-us {
+  background-color: #eff0f2;
+}
+.contact-us__container {
+  max-width: 1340px;
+  margin: 0px auto;
+}
+.contact-us__title {
+  padding: 250px 0px 0px 0px;
+}
+.contact-us__button {
+  text-align: center;
+  padding: 150px 0px;
+}
+.contact-us__button button {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 50px;
+  border: 2px solid #505050;
+  color: #505050;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+.contact-us__button button:hover {
+  background-color: #b2f2ee;
+}
+
+.title h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #505050;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 900;
+}
+.title h1 span {
+  background-color: #b2f2ee;
+  padding: 0px 5px 0px 5px;
+}
+
+.about-us {
+  background-color: #f8fafa;
+}
+.about-us p {
+  color: #929393;
+}
+.about-us__container {
+  max-width: 1540px;
+  margin: 0px auto;
+  text-align: center;
+}
+.about-us__title {
+  padding: 180px 0px 0px 0px;
+}
+.about-us__text {
+  padding: 10px 0px 160px 0px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.about-us__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 40px 90px 40px;
+}
+.text {
+  padding: 10px 0px 160px 0px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.title h2 {
+  font-weight: 700;
+  font-size: 44px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.item-about__icon img {
+  max-width: 100%;
+}
+.item-about__text {
+  max-width: 450px;
+  padding: 20px 0px 0px 0px;
+  text-align: left;
+}
+.item-about__text h3 {
+  padding: 0px 0px 15px 0px;
+  font-size: 23px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.item-about__text p {
+  padding: 0px 0px 15px 0px;
+  font-size: 20px;
+}
+
+.works {
+  text-align: center;
+}
+.works__title {
+  padding: 180px 0px 0px 0px;
+}
+.gallary-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 14px;
+  padding: 0px 40px;
+}
+.gallary-grid__icon img {
+  width: 100%;
+  height: 100%;
+}
